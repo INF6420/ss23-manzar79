@@ -4,28 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Book sale events</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <nav></nav>
+        <nav class="main-menu">
             <img src="booksale/logo.png" alt="Logo for Site">
-            <ul>
+            <input class="menu-btn" type="checkbox" id="menu-btn" />
+            <label class="menu-icon" for="menu-btn"><span class="navicon" aria-label="Toggle for menu"></span></label>
+            <ul class="main-nav">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="Upcoming-Events.html">Upcoming Events</a></li>  
                 <li><a href="About-Us.html">About Us</a></li>  
                 <li><a href="Contact-Us.html">Contact Us</a></li>  
             </ul>
+        </nav>
+
     </header>
     <main>
         <div>
             <h1 id="section-title">Find book sale events </h1>
             <p>
-                Find booksale events near you
+                This site serves the community of book readers to find book sale events nearby.
             </p>
         </div>
     </main>
     <footer>
+        <div class="footer-column">
         <p>Copyright &copy; booksaleevents.com</p>
-      </footer>
+        </div>
+        <div class="social-media">
+            <ul>
+                <li><a href=""><img height="20" width="20" src="images/instagram.svg" alt="Instagram"></a></li>
+                <li><a href=""><img height="20" width="20" src="images/twitter.svg" alt="Twitter"></a></li>
+                <li><a href=""><img height="20" width="20" src="images/facebook.svg" alt="Facebook"></a></li>
+            </ul>
+          </div>
+    </footer>
 </body>
 </html>
