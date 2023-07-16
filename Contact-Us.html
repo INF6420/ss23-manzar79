@@ -23,12 +23,31 @@
         </nav>
     </header>
     <main>
-        <div>
-            <h2 id="section-title">Contact Information</h2>
-            <address> 1000 Test drive, Detroit, MI 48000</address>
-            <tel>313-111-2222</tel>
-        </div>
-    </main>
+                <form action="https://formspree.io/f/maygyvyo" method="post" class="validate">
+                        <div>
+                          <label for="name">Name</label>
+                          <input id="name" type="text" name="name" class="form-input">
+                        </div>
+                  
+                        <div>
+                          <label for="email">Email</label>
+                          <input id="email" type="email" name="_replyto" class="form-input" required>
+                        </div>
+                  
+                        <div>
+                          <label for="message">Message</label>
+                          <textarea id="message" name="message" class="form-input" rows="4" required></textarea>
+                        </div>
+                  
+                        <div>
+                          <input type="submit" value="Send">
+                        </div>
+                  
+                    </form>
+                  <input type="hidden" name="_subject" value="New submission from my portfolio website!" />
+                  <input type="text" name="_gotcha" style="display:none" />
+                </form>
+              </main>
     <footer>
         <div>
             <p>Copyright &copy; booksaleevents.com</p>
@@ -39,8 +58,10 @@
                 <li><a href=""><img height="20" width="20" src="booksale/twitter.svg" alt="Twitter"></a></li>
                 <li><a href=""><img height="20" width="20" src="booksale/facebook.svg" alt="Facebook"></a></li>
             </ul>
-        </div>
-    </footer>
+          </div>
+      </footer>
+      <script> src="script.js"</script>
+
 </body>
 
 </html>
